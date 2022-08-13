@@ -20,7 +20,7 @@ def start(message):
 			                'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
 			                'accept-encoding': 'gzip, deflate, br',
 			                'accept-language': 'en-US,en;q=0.9',
-			                'cookie': 'sessionid=45480830288%3AjJWzjhVCd2XlfI%3A22%3AAYfC05qKCv-7xV0wIlNMG_6FCtAxzF-CSnQvqo2z0Q;ds_user_id=45480830288;csrftoken=fxIwfahUyKwEVBlZ9V3qwmGsInqtWQ59',
+			                'cookie': 'mid=YuPxZAABAAEUVYcD2B0cFEzLEyuU; ig_did=50092572-86B8-4779-8D7D-ED783D6BE001; datr=lPHjYm79ZCBQZ-8kyLncySC7; shbid="16978\05445151430664\0541691658913:01f73e24762d0279cfc457473f3049c5eb070d1c8d23e38f466627857233aeda0b3160f1"; shbts="1660122913\05445151430664\0541691658913:01f71e82885b8d1c08b27e81e1f20ec92f329aed0de8948491cd737c7096738e0f7e03a7"; dpr=3; csrftoken=74N0PAAbBeu92D0vhWPzInLvND1Ys617',
 			                'referer': 'https://www.instagram.com/{}/'.format(iip),
 			                'sec-ch-ua': '"Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"',
 			                'sec-ch-ua-mobile': '?1',
