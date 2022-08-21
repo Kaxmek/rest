@@ -2,7 +2,7 @@ import time
 import requests
 import telebot
 from time import sleep
-token = "5550350888:AAEL2LRRBPtSVSchi6DEQZIn6-xBJ_eXm_g"
+token = "5590751236:AAGjlo8vQE2TKLEUGcuxLWcgYI1B6z1k7Is"
 bot = telebot.TeleBot(token)
 @bot.message_handler(commands = ['greet','start'])
 def start(message):
@@ -35,7 +35,7 @@ def start(message):
 			
 			iddd = str(rr['graphql']['user']['id'])
 		except KeyError as error:
-			bot.send_message(message.chat.id, f"😢 - Username Error\n🇮🇶 - @MVMVP - @W_Y67")
+			bot.send_message(message.chat.id, f"😢 - Username Error\n🇮🇶 - @S_Y_W - @N1111V")
 			
 		headers = {
         # 'Content-Length': '305',
@@ -55,7 +55,7 @@ def start(message):
 		}
 		res = requests.post('https://i.instagram.com/api/v1/accounts/send_password_reset/',headers=headers, data=data).json()
 		rs =str(res['obfuscated_email'])
-		bot.send_message(message.chat.id, f"Rest User True\nUser : {iip}\nEmail : {rs}\nID : {iddd}\nBy : @MVMVP - @W_Y67")
+		bot.send_message(message.chat.id, f"Rest User True\nUser : {iip}\nEmail : {rs}\nID : {iddd}\nBy : @S_Y_W - @N1111V")
 			
 		
 				
